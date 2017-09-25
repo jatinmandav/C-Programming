@@ -58,8 +58,8 @@ void postfixEvaluation(char postfix[]){
             Push(postfix[i] - '0');
         }
         else{
-            int val1 = Pop();
             int val2 = Pop();
+            int val1 = Pop();
             ]switch(postfix[i]){
                 case '+':{
                     Push(val1 + val2);
