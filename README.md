@@ -14,7 +14,8 @@ A linked list is held using a local pointer variable which points to the first i
     - [Josephus Problem Using Singly Linked List](Linked_List_in_C/JosephusProblemUsingSinglyLinkedList.c/)
 
 - [Stacks in C](Stacks_in_C/)
-  - A Stack is a data structure which is used to store data in a particular order. Two operations that can be performed on a Stack are: Push operation which inserts an element into the stack. Pop operation which removes the last element that was added into the stack. It follows Last In First Out(LIFO) Order. A stack overflow is an undesirable condition in which the program tries to use more memory space than the call stack has available. If a Stack is empty and yet a Pop operation is attempted, then it results in Stack Underflow condition.
+  - A Stack is a data structure which is used to store data in a particular order. Two operations that can be performed on a Stack are: Push operation which inserts an element into the stack. Pop operation which removes the last element that was added into the stack. It follows Last In First Out(LIFO) Order.
+  - A stack overflow is an undesirable condition in which the program tries to use more memory space than the call stack has available. If a Stack is empty and yet a Pop operation is attempted, then it results in Stack Underflow condition.
   -  Examples and Code:
     - [Stacks Using Arrays](Stacks_in_C/StacksUsingArrays.c/)
     - [Stacks Using Linked List](Stacks_in_C/StacksUsingLinkedList.c/)
