@@ -18,7 +18,7 @@ A linked list is held using a local pointer variable which points to the first i
   - A stack overflow is an undesirable condition in which the program tries to use more memory space than the call stack has available. If a Stack is empty and yet a Pop operation is attempted, then it results in Stack Underflow condition.
   -  Examples and Code:
     - [Stacks Using Arrays](Stacks_in_C/StacksUsingArrays.c/)
-     - [Stacks Using Linked List](Stacks_in_C/StacksUsingLinkedList.c/)
-     - [Infix To Postfix Expression Using Stacks](Stacks_in_C/InfixToPostfixUsingStacks.c/)
-     - [Postfix Expression Evaluation Using Stacks](Stacks_in_C/PostfixEvaluationUsingStacks.c/)
+    - [Stacks Using Linked List](Stacks_in_C/StacksUsingLinkedList.c/)
+    - [Infix To Postfix Expression Using Stacks](Stacks_in_C/InfixToPostfixUsingStacks.c/)
+    - [Postfix Expression Evaluation Using Stacks](Stacks_in_C/PostfixEvaluationUsingStacks.c/)
     
