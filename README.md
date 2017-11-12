@@ -30,3 +30,14 @@ A linked list is held using a local pointer variable which points to the first i
      - [Direct and Circular Buffer Memory Allocation in Queues](Queues_In_C/NormalAndCircularBuffer_BasicOperations.c/)
      - [Doubly Ended Queues - Basic Operations](Queues_In_C/DoubleEndedQueue_BasicOperation.c/)
      - [Priority Queues Using Linked List - Basic Operations](Queues_In_C/PriorityQueuesUsingLinkedList_BasicOperations.c/)
+
+- [Hash Tables or Hashing in C](Hashing/)
+  - Hash Table is a data structure which stores data in an associative manner. In hash table, the data is stored in an array format where each data value has its own unique index value. Access of data becomes very fast, if we know the index of the desired data.
+  - One advantage of hashing is that no extra space is required to store the index as in the case of other data structures. In addition, a hash table provides fast data access and an added advantage of rapid update.
+  - On the other hand, the primary drawback of using the hashing technique for inserting and retrieving data values is that it usually lacks locality adn sequential retrieval by key. This makes insertion and retrieval of data values even more random.
+  - Collisions can occur when the hash function maps two different keys to the same location. The Two most popular methods are:
+    - Open Addressing
+      - [Linear Probing](Hashing/LinearProbing.c/)
+      - [Quadratic Probing](Hashing/QuadraticProbing.c/)
+      - [Double Hashing](Hashing/DoubleHashing.c/)
+    - Chaining
