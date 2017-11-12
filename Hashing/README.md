@@ -14,4 +14,7 @@ Collisions can occur when the hash function maps two different keys to the same 
         - Formula : h(k, i) = [h'(k) + i*c1 + i*i*c2] mod m
         - where, h'(k) = (k mod m), c1, c2 = Constants, m = % Operator
     - [Double Hashing](Hashing/DoubleHashing.c/)
+      - Double Hashing uses two Hash Functions instead of one.
+        - Formula : h(k, i) = [h1(k) + i*h2(k)] mod m
+        - where, h1(k) = (k mod m), h2(k) = (k mod (m - 1) or (m - 2)), m = % Operator
   - Chaining
