@@ -54,6 +54,7 @@ void insertQuad(int key){
             return;
         }
     }
+    printf("Key Cannot be Placed in Hash Table!\n");
 }
 
 // Search for Key
