@@ -27,6 +27,6 @@ A linked list is held using a local pointer variable which points to the first i
    - In a FIFO data structure, the first element added to the queue will be the first one to be removed. This is equivalent to the requirement that once a new element is added, all elements that were added before have to be removed before the new element can be removed.
    - Often a peek or front operation is also entered, returning the value of the front element without dequeuing it. A queue is an example of a linear data structure, or more abstractly a sequential collection.
    - Examples and Code:
-     - [Direct and Ciircular Buffer Memory Allocation in Queues](Queues_In_C/NormalAndCircularBuffer_BasicOperations.c/)
+     - [Direct and Circular Buffer Memory Allocation in Queues](Queues_In_C/NormalAndCircularBuffer_BasicOperations.c/)
      - [Doubly Ended Queues - Basic Operations](Queues_In_C/DoubleEndedQueue_BasicOperation.c/)
      - [Priority Queues Using Linked List - Basic Operations](Queues_In_C/PriorityQueuesUsingLinkedList_BasicOperations.c/)
