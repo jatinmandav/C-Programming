@@ -5,9 +5,9 @@ Like Stack, Queue is a linear structure which follows a particular order in whic
 The difference between stacks and queues is in removing. In a stack we remove the item the most recently added; in a queue, we remove the item the least recently added.
 
 Types of Queues:
-  - Normal and Circular Buffer Memory Allocation using Arrays
-  - Double - Ended Queues
-  - Priority Queues
+  - Normal and Circular Buffer Memory Allocation using Arrays : Adding at rear end and Popping at front end.
+  - Double - Ended Queues: Adding and Popping from both ends of the Queue.
+  - Priority Queues: Adding elements and removing according to the Priority of the element. Priority is given along with the value of that element. 
 
 Operations on Queues:
   - Enqueue: Adding Elements to Queue
