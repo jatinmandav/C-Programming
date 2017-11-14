@@ -8,7 +8,7 @@ Sorting Using C Programming Language.
     - Best Case (Array is Sorted): O(n)
     - Worst Case (Array is reverse Sorted): O(n*n)
     - Auxiliary Space: O(1)
-    - Code: [Bubble Sort](Sorting/BubbleSort.c/)
+    - Code: [Bubble Sort](BubbleSort.c/)
     
   - Selection Sort
     - The Selection Sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from the unsorted part and putting it at the beginning.
@@ -18,7 +18,7 @@ Sorting Using C Programming Language.
     - In every iteration of selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray.
     - Time Complexity: O(n*n)
     - Auxiliary Space: O(1)
-    - Code: [Selection Sort](Sorting/SelectionSort.c/)
+    - Code: [Selection Sort](SelectionSort.c/)
   
   - Insertion Sort
     - The array is searched sequentially and unsorted items are moved and inserted into the sorted sub-list(in the same array).
@@ -31,7 +31,7 @@ Sorting Using C Programming Language.
       - Repeat until list is sorted.
     - Time Complexity: O(n*n)
     - Auxiliary Space: O(1)
-    - Code: [Insertion Sort](Sorting/InsertionSort.c/)
+    - Code: [Insertion Sort](InsertionSort.c/)
     
   - Quick Sort
     - Quick Sort is a Divide and Conquer algorithm. It picks a pivot point and partitions the array around that pivot.
@@ -44,7 +44,7 @@ Sorting Using C Programming Language.
     - Time Complexity: O(n*log(n))
     - Best: O(n*log(n))
     - Worst: O(n*n)
-    - Code: [Quick Sort](Sorting/QuickSort.c/)
+    - Code: [Quick Sort](QuickSort.c/)
   
   - Merge Sort
     - Merge Sort is a Divide and Conquer algorithm. It divides input array in two halves, calls itself for the two halves and then merges the two sorted halves.
@@ -58,4 +58,4 @@ Sorting Using C Programming Language.
     - Best: O(n*log(n))
     - Worst: O(n*log(n))
     - Auxiliary Space: O(n)
-    - Code: [Merge Sort](Sorting/MergeSort.c/)
+    - Code: [Merge Sort](MergeSort.c/)
