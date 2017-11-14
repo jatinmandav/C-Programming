@@ -19,6 +19,17 @@ A stack may be implemented to have a bounded capacity (array implementation). If
       - If the scanned character is an ')', Pop and output the stack until an '(' is encountered.
       - Repeat until expression is scanned.
       - Pop and output from stack until stack is empty.
+    - Code: [Infix to Postfix Epression Conversion](Stacks_In_C/InfixToPostfixUsingStacks.c/)
+  
+  - Postfix Expression Evaluation
+    - Algorithm:
+      - Create a Stack to store Operands (or Values).
+      - Scan the given Expression:
+        - If the element is a number, push it to the stack.
+        - If the element is an operator, pop operands from the stack.
+        - Evaluate the operator and push it back to the stack.
+      - When the expression ends, the Number in the stack is the final result.
+    - Code: [Postfix Expression Evaluation](Stacks_In_C/PostfixEvaluationUsingStacks.c/)
 
 
 Links for Further Reading :  
